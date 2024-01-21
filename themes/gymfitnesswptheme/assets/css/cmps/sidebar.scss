@@ -1,0 +1,31 @@
+.sidebar {
+  a {
+    color: var(--black);
+  }
+
+  .widget {
+    margin-bottom: 2rem;
+  }
+
+  .classes-header{
+    margin-bottom: 2rem;
+  }
+}
+
+.sidebar-class {
+  display: grid;
+  grid-template-columns: 30% auto;
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  .sidebar-widget-image {
+  }
+
+  .class-content {
+    p{
+      font-size: 1.6rem;
+      font-weight: 700;
+    }
+  }
+}
+

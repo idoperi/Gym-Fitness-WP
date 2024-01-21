@@ -404,6 +404,27 @@ img {
 /* Setup */
 /* jquery */
 /* Components */
+.sidebar a {
+  color: var(--black);
+}
+.sidebar .widget {
+  margin-bottom: 2rem;
+}
+.sidebar .classes-header {
+  margin-bottom: 2rem;
+}
+
+.sidebar-class {
+  display: grid;
+  grid-template-columns: 30% auto;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.sidebar-class .class-content p {
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
 /* Pages */
 /* Classes */
 .classes-list {
