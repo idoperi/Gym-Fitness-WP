@@ -1,0 +1,16 @@
+/upgrade
+/uploads
+/.index.php
+/.DS_Store
+/.idea
+/index.php
+
+/themes/twentytwentyfour
+/themes/twentytwentythree
+/themes/twentytwentytwo
+/themes/index.php
+/themes/gymfitnesswptheme/node_modules
+
+
+/plugins/advanced-custom-fields
+/plugins/regenerate-thumbnails

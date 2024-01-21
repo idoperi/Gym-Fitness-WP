@@ -1,0 +1,15 @@
+@media (min-width: 768px) {
+  .page.with-sidebars {
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+  }
+
+  .with-sidebars .page-content {
+    flex: 0 0 60%;
+  }
+
+  .with-sidebars .sidebar {
+    flex: 0 0 40%;
+  }
+}

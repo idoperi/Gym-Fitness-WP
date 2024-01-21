@@ -1,0 +1,14 @@
+:root {
+  /* Fonts */
+  --mainFont: "Staatliches", cursive;
+  --textFont: "Open Sans", sans-serif;
+  --secondaryFont: "Raleway", sans-serif;
+
+  /* colors */
+  --primary: #ff5b00;
+  --darkGray: #2f2e2e;
+  --lightGray: #ebebeb;
+
+  --white: #ffffff;
+  --black: #000000;
+}

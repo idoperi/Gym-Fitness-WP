@@ -1,0 +1,16 @@
+.page.no-sidebars {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.featured-image {
+  margin-bottom: 3rem;
+}
+
+.page p {
+  margin: 1em 0;
+}
+
+.page h1 {
+  margin: 0 0 4rem 0;
+}
