@@ -1,0 +1,20 @@
+.blog-entries {
+  margin-top: 4rem;
+}
+
+.card {
+  .card-content {
+    .date-published {
+      color: var(--white);
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .blog-entries {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+}

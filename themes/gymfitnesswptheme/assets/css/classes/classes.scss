@@ -1,35 +1,33 @@
-.classes-list{
+.classes-list, {
   margin-top: 4rem;
 }
 
-.card{
+.card {
   margin-bottom: 4rem;
 
   img {
     display: block;
   }
 
-  .card-content{
+  .card-content {
     padding: 3rem 0;
     text-align: center;
-
-
   }
 }
 
 @media (min-width: 768px) {
-  .classes-list{
+  .classes-list, {
     display: flex;
     justify-content: space-between;
     gap: 4rem;
     flex-wrap: wrap;
   }
 
-  .card{
+  .card {
     flex: 0 0 calc(50% - 2rem);
     position: relative;
 
-    .gradient{
+    .gradient {
       position: absolute;
       left: 0;
       bottom: 0;
@@ -37,8 +35,8 @@
       right: 0;
 
 
-      background: rgb(0,0,0);
-      background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.3) 100%);
+      background: rgb(0, 0, 0);
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, .3) 100%);
     }
 
     .card-content {
@@ -48,7 +46,7 @@
       padding: 2rem;
       text-align: left;
 
-      a{
+      a {
         color: var(--white);
       }
 
