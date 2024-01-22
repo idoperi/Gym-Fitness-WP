@@ -1,0 +1,62 @@
+.wpcf7-form {
+  p {
+    display: grid;
+    margin: 0;
+
+    br {
+      display: none;
+    }
+
+    label {
+
+    }
+
+    span {
+      width: 100%;
+    }
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--lightGray);
+  }
+
+  .wpcf7-submit {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--mainFont);
+    color: var(--white);
+    padding: 1.2rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .wpcf7-not-valid-tip{
+    background-color: red;
+    color: var(--white);
+    padding: 1rem;
+  }
+
+  &.invalid {
+    .wpcf7-response-output {
+      background-color: red;
+      color: var(--white);
+      border: none;
+      margin: 0;
+      text-align: center;
+    }
+  }
+  &.sent {
+    .wpcf7-response-output {
+      background-color: green;
+      color: var(--white);
+      border: none;
+      margin: 0;
+      text-align: center;
+    }
+  }
+}
