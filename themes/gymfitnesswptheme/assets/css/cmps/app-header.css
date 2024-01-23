@@ -34,6 +34,11 @@
     display: flex;
     gap: 2rem;
   }
+
+  .main-menu a {
+    font-size: 2rem;
+    padding: .5rem 1rem;
+  }
 }
 
 /* Mobile Menu */
@@ -57,5 +62,25 @@
 @media (min-width: 768px) {
   .slicknav_menu {
     display: none;
+  }
+}
+
+/* scroll fixed navigation-bar */
+
+.navigation-bar{
+  transition: all .3s ease;
+}
+
+.fixed-top{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: var(--darkGray);
+  z-index: 1;
+  padding: 1rem 5rem;
+
+  img{
+    width: 12rem;
   }
 }
