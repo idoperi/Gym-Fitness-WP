@@ -9,13 +9,23 @@
 
 /* Components */
 @import "cmps/app-header.css";
+@import "cmps/front-header.scss";
 @import "cmps/app-footer.css";
+@import "cmps/sidebar.scss";
 
 /* Pages */
 @import "pages/page.css";
 @import "pages/page-with-sidebars.css";
+@import "pages/gallery.scss";
+@import "pages/contact-page.scss";
+@import "pages/home-page.scss";
 
 /* Classes */
 @import "classes/classes.scss";
 @import "classes/class-page.scss";
+
+/* Posts */
+@import "posts/blog.scss";
+
+
 
